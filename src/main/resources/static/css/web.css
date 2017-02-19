@@ -59,6 +59,9 @@ html, body, * {
     text-align: center;
     z-index: 1050;
 }
+.jumbotron .slogan h2{
+    font-weight: bold;
+}
 
 .masthead:after {
     content: '';
