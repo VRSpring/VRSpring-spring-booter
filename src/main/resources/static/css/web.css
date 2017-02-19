@@ -2,11 +2,6 @@ html, body, * {
     font-family: "Microsoft YaHei" ! important;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-}
-
 .clearfix:before, .container:after {
     content: "";
     display: table;
@@ -21,18 +16,13 @@ html, body {
     zoom: 1;
 }
 
-.navbar-padding {
-    padding: 0 20px;
-}
-
 .masthead {
     padding: 60px 0 80px;
     margin-bottom: 0;
     color: #fff;
 }
-
-.logo-padding {
-    padding: 2px;
+.logo-padding{
+    padding: 5px;
 }
 
 .jumbotron .container {
