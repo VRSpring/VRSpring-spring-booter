@@ -15,6 +15,11 @@ import java.io.IOException;
 @Controller
 public class HomeController {
 
+    @RequestMapping("/")
+    public String root(HttpServletRequest request){
+        return "index";
+    }
+
     @RequestMapping("/index")
     public String index(HttpServletRequest request){
         return "index";
