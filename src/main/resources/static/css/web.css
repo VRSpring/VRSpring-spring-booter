@@ -16,6 +16,12 @@ html, body, * {
     zoom: 1;
 }
 
+
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .masthead {
     padding: 60px 0 80px;
     margin-bottom: 0;
