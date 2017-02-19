@@ -22,13 +22,13 @@ public class Booter implements CommandLineRunner {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         ctx.register(MyBatisConfig.class);
         ctx.refresh();
-        LOGGER.info("========                      VRSpring启动 开始                     ========");
+        LOGGER.info("========                      VRSpring 启动 开始                     ========");
         SpringApplication.run(Booter.class, args);
-        LOGGER.info("========                      VRSpring启动 完成                     ========");
+        LOGGER.info("========                      VRSpring 启动 完成                     ========");
     }
 
     @Override
     public void run(String... args) throws Exception {
-        LOGGER.info("========                      VRSpring启动中 ...                    ========");
+        LOGGER.info("========                      VRSpring 启动中 ...                    ========");
     }
 }

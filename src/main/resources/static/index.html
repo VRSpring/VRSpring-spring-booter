@@ -14,30 +14,30 @@
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 
     <script language="javascript">
-        if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
-            var loadDateTime = new Date();
-            window.setTimeout(function () {
-                        var timeOutDateTime = new Date();
-                        if (timeOutDateTime - loadDateTime < 5000) {
-                            window.location = "要跳转的页面URL";
-                        } else {
-                            window.close();
-                        }
-                    },
-                    25);
-            window.location = " apps custom url schemes ";
-        } else if (navigator.userAgent.match(/android/i)) {
-            var state = null;
-            try {
-                state = window.open("apps custom url schemes ", '_blank');
-            } catch (e) {
-            }
-            if (state) {
-                window.close();
-            } else {
-                window.location = "要跳转的页面URL";
-            }
-        }
+//        if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
+//            var loadDateTime = new Date();
+//            window.setTimeout(function () {
+//                        var timeOutDateTime = new Date();
+//                        if (timeOutDateTime - loadDateTime < 5000) {
+//                            window.location = "要跳转的页面URL";
+//                        } else {
+//                            window.close();
+//                        }
+//                    },
+//                    25);
+//            window.location = " apps custom url schemes ";
+//        } else if (navigator.userAgent.match(/android/i)) {
+//            var state = null;
+//            try {
+//                state = window.open("apps custom url schemes ", '_blank');
+//            } catch (e) {
+//            }
+//            if (state) {
+//                window.close();
+//            } else {
+//                window.location = "要跳转的页面URL";
+//            }
+//        }
     </script>
 </head>
 <body>
