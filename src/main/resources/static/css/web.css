@@ -21,6 +21,10 @@ html, body, * {
 .navbar-inverse {
     background-color: rgba(0, 0, 0, 0.5);
 }
+.navbar-inverse .navbar-toggle {
+    border: none;
+     border-color: transparent;
+}
 
 .masthead {
     padding: 60px 0 80px;
@@ -45,9 +49,15 @@ html, body, * {
     margin-left: auto;
 }
 
-.jumbotron .container .slogan {
+.jumbotron .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 200px;
+    z-index: 1050;
 }
 
 .masthead:after {
@@ -85,15 +95,18 @@ html, body, * {
     margin-left: 0;
 }
 
-.about-container h3 {
+.about-container h4 {
     margin-top: 90px;
     font-weight: bold;
 }
 
-.about-container h4 {
+.about-container h5 {
     font-size: medium;
     line-height: 2rem;
-    color: #f3f3f3;
+    color: #d8d8d8;
+}
+h5.vr-product{
+    color: #fcfcfc;
 }
 
 .about-footer-container {
