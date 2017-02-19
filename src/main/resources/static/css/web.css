@@ -26,6 +26,14 @@ html, body, * {
      border-color: transparent;
 }
 
+.navbar-inverse .navbar-nav>li {
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fcfcfc;
+    font-size: 1.5rem;
+}
+
 .masthead {
     padding: 60px 0 80px;
     margin-bottom: 0;
