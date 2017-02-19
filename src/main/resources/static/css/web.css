@@ -86,6 +86,9 @@ html, body, * {
 .abouthead {
     position: relative;
     padding-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    background: #0d2843;
 }
 
 .abouthead:after {
@@ -121,8 +124,10 @@ h5.vr-product{
 }
 
 .about-footer-container {
+    margin-top: -5px;
+    padding-top: 15px;
     padding-bottom: 10px;
-    background: #fcfcfc;
+    background: rgba(15, 35, 60,0.95);
 }
 
 .about-ba, .about-ba a {
