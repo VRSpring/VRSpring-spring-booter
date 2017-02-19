@@ -67,4 +67,10 @@ dependencies {
     compile 'net.sourceforge.nekohtml:nekohtml:1.9.21'
     compile 'com.alibaba.media:sdk:1.2.7'
 
+    compile("org.webjars:webjars-locator")
+    compile("org.webjars:bootstrap:3.3.7")
+    compile("org.webjars:jquery:3.1.0")
+    compile group: 'org.webjars', name: 'angularjs', version: '1.6.1'
+    compile group: 'org.webjars', name: 'font-awesome', version: '4.7.0'
+
 }
